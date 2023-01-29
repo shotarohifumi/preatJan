@@ -1,0 +1,28 @@
+body{
+    background-image: url(./HIGA62_notepen2.jpg);
+    size: 100%;
+}
+
+.btn{
+    position: absolute;
+    z-index: 1;
+    top: 64px;
+    left: 90px;
+    font-size: 2rem;
+    font-family: fantasy;
+    animation: biggerfont 3s linear 3s infinite normal both;
+    border-radius: 10px;
+    cursor: grab;
+    transform: rotate(-4deg);
+}
+
+@keyframes biggerfont {
+    from {
+        background-color: transparent;
+        font-size: 2rem;
+    }
+    to {
+        background-color: orange;
+        font-size: 2.5rem;
+    }
+}
