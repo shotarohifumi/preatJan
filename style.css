@@ -66,3 +66,8 @@ body{
     }
 }
 
+@media screen and (max-width: 767px) {
+    .btn2, .btn4 {
+        display: none;
+    } 
+}
