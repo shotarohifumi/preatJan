@@ -10,7 +10,7 @@ body{
     left: 90px;
     font-size: 2rem;
     font-family: fantasy;
-    animation: biggerfont 3s ease 3s infinite normal both;
+    animation: biggerfont1 3s ease 3s infinite normal both;
     border-radius: 10px;
     cursor: grab;
     transform: rotate(-6deg);
@@ -23,7 +23,7 @@ body{
     right: 500px;
     font-size: 2rem;
     font-family: fantasy;
-    animation: biggerfont 2s ease 2s infinite normal both;
+    animation: biggerfont2 2s ease 2s infinite normal both;
     border-radius: 10px;
     cursor: grab;
     transform: rotate(-6deg);
@@ -36,7 +36,7 @@ body{
     left: 112px;
     font-size: 2rem;
     font-family: fantasy;
-    animation: biggerfont 5s ease 5s infinite normal both;
+    animation: biggerfont3 5s ease 5s infinite normal both;
     border-radius: 10px;
     cursor: grab;
     transform: rotate(-6deg);
@@ -49,20 +49,42 @@ body{
     right: 500px;
     font-size: 2rem;
     font-family: fantasy;
-    animation: biggerfont 4s ease 4s infinite normal both;
+    animation: biggerfont4 4s ease 4s infinite normal both;
     border-radius: 10px;
     cursor: grab;
     transform: rotate(-6deg);
 }
 
-@keyframes biggerfont {
+@keyframes biggerfont1 {
     from {
         background-color: transparent;
-        font-size: 2rem;
+    }
+    to {
+        background-color: yellow;
+    }
+}
+@keyframes biggerfont2 {
+    from {
+        background-color: transparent;
+    }
+    to {
+        background-color: yellowgreen;
+    }
+}
+@keyframes biggerfont3 {
+    from {
+        background-color: transparent;
     }
     to {
         background-color: orange;
-        font-size: 2rem;
+    }
+}
+@keyframes biggerfont4 {
+    from {
+        background-color: transparent;
+    }
+    to {
+        background-color: darkcyan;
     }
 }
 
