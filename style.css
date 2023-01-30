@@ -10,55 +10,55 @@ body{
     left: 90px;
     font-size: 2rem;
     font-family: fantasy;
-    animation: biggerfont 1s ease 1s infinite normal both;
+    animation: biggerfont 3s ease 3s infinite normal both;
     border-radius: 10px;
     cursor: grab;
-    transform: rotate(-4deg);
+    transform: rotate(-6deg);
 }
 
 .btn2{
     position: absolute;
     z-index: 1;
     top: 64px;
-    right: 200px;
+    right: 500px;
     font-size: 2rem;
     font-family: fantasy;
     animation: biggerfont 2s ease 2s infinite normal both;
     border-radius: 10px;
     cursor: grab;
-    transform: rotate(-4deg);
+    transform: rotate(-6deg);
 }
 
 .btn3{
     position: absolute;
     z-index: 1;
-    bottom: 64px;
+    bottom: 170px;
     left: 112px;
     font-size: 2rem;
     font-family: fantasy;
-    animation: biggerfont 3s ease 3s infinite normal both;
+    animation: biggerfont 5s ease 5s infinite normal both;
     border-radius: 10px;
     cursor: grab;
-    transform: rotate(-4deg);
+    transform: rotate(-6deg);
 }
 
 .btn4{
     position: absolute;
     z-index: 1;
-    bottom: 64px;
-    right: 160px;
+    bottom: 170px;
+    right: 500px;
     font-size: 2rem;
     font-family: fantasy;
     animation: biggerfont 4s ease 4s infinite normal both;
     border-radius: 10px;
     cursor: grab;
-    transform: rotate(-4deg);
+    transform: rotate(-6deg);
 }
 
 @keyframes biggerfont {
     from {
         background-color: transparent;
-        font-size: 0rem;
+        font-size: 2rem;
     }
     to {
         background-color: orange;
